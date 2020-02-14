@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <script src="js/jquerry.js"></script>
+    <script src="js/voting.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+    <title>Vote for best language</title>
+</head>
+<body>
+    <div id="container">
+        <span id="question">What is your favorite server side language?</span>
+        <div class="type-1"><span id='btn-php-val'>0</span><button id="btn-php" onclick="vote('btn-php', 1)">Vote</button>PHP</div>
+        <div class="type-2"><span id='btn-ru-val'>0</span><button id="btn-ru" onclick="vote('btn-ru', 1)">Vote</button>Ruby</div>
+        <div class="type-3"><span id='btn-ja-val'>0</span><button id="btn-ja" onclick="vote('btn-ja', 1)">Vote</button>Java</div>
+        <div class="type-4"><span id='btn-asp-val'>0</span><button id="btn-asp" onclick="vote('btn-asp', 1)">Vote</button>ASP</div>
+        <div class="type-5"><span id='btn-py-val'>0</span><button id="btn-py" onclick="vote('btn-py', 1)">Vote</button>Python</div>
+    </div>    
+</body>
+</html>
